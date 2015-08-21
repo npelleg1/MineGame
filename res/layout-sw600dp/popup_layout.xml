@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:layout_width="wrap_content"
+   android:id="@+id/popup"
+   android:layout_height="wrap_content"
+   android:orientation="vertical" 
+   android:background="@color/Orange">
+ 
+<TextView
+   android:id="@+id/textView1"
+   android:layout_marginTop="5dp"
+   android:layout_width="wrap_content"
+   android:layout_height="wrap_content"
+   android:textSize="30sp"
+   android:gravity="center"
+   android:text="How to Play MineGame: Flag all the Mines, and clear all the empty spaces. When CLEAR button is blue, tap a square to reveal if it's a mine. When FLAG button is blue, tap a square to flag it as a mine. Switch between CLEAR and FLAG by tapping each one. The bottom right button contains the number of mines remaining to be flagged. When no squares have been pressed, press that button to change difficulty (easy, medium, hard). GOOD LUCK!!!" 
+   />
+ 
+<Button
+   android:id="@+id/close"
+   android:layout_marginTop="10dp"
+   android:layout_gravity="center_horizontal"
+   android:layout_width="wrap_content"
+   android:layout_height="wrap_content"
+   android:textSize="45sp"
+   android:text="OK!" />
+ 
+</LinearLayout>
